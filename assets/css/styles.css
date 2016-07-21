@@ -13,7 +13,7 @@ body{
 	width: 100%;
 	padding-top: 50px;
 	margin-top: 50px;
-	color: #6A9A00;
+	color: white;
 }
 
 #about{
@@ -23,6 +23,7 @@ body{
 	color: white;
 }
 
-#about h1{
-	color: white;
+#skills{
+	background-color: black;
+	text-align: center;
 }
