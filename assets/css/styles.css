@@ -1,9 +1,13 @@
 body{
-	font-family: Arial, sans-serif;
+	font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
 	background: #fff;
 	font-size: 14px;
 	font-weight: 300;
 	color: #333;
+}
+
+.row {
+  padding: 60px 0 40px;
 }
 
 .header{
@@ -13,7 +17,7 @@ body{
 	width: 100%;
 	padding-top: 50px;
 	margin-top: 50px;
-	color: white;
+	color: #BD3613;
 }
 
 #about{
