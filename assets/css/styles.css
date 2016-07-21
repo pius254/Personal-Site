@@ -62,7 +62,8 @@ ul li{
 }
 
 .panel{
-	width: 250px;
+	width: 450px;
+	height: 300px;
 	text-align: center;
 	margin: 0 auto;
 }
