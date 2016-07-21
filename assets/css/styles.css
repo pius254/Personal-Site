@@ -1,0 +1,17 @@
+body{
+	font-family: Arial, sans-serif;
+	background: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	color: #333;
+}
+
+.header{
+	background-image: url("../images/bit-city.jpg");
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	padding-top: 50px;
+	margin-top: 50px;
+	color: #6A9A00;
+}
