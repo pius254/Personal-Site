@@ -11,6 +11,15 @@ a{
 	text-decoration: none;
 }
 
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
 .row {
   padding: 60px 0 40px;
 }
@@ -37,6 +46,26 @@ a{
 	text-align: center;
 }
 
+#feedback{
+	margin: 0;
+	padding: 0;
+}
+#feedback h2{
+	padding-bottom: 30px;
+	font-weight: 700;
+	margin-top: 0;
+	font-size: 25px;
+	text-align: center;
+}
+#feedback .contact-info{
+	text-align: center;
+}
+
+.panel{
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
 /*#skills{
 	background-color: transparent;
 }*/
