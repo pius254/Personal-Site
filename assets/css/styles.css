@@ -24,7 +24,7 @@ ul li{
   padding: 60px 0 40px;
 }
 
-.header{
+#header{
 	background-image: url("../images/bit-city.jpg");
 	background-position: center;
 	height: 100%;
