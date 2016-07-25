@@ -24,6 +24,11 @@ ul li{
   padding: 60px 0 40px;
 }
 
+.panel{
+	padding: 0 15px;
+	/*padding-left: 15px;*/
+}
+
 #header{
 	background-image: url("../images/bit-city.jpg");
 	background-position: center;
