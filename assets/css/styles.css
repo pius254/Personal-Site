@@ -34,7 +34,7 @@ ul li{
 	background-position: center;
 	height: 100%;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 150px;
 	margin-top: 50px;
 	color: white;
 }
@@ -54,6 +54,7 @@ ul li{
 #feedback{
 	margin: 0;
 	padding: 0;
+	background-color: #2D3E50;
 }
 #feedback h2{
 	padding-bottom: 30px;
