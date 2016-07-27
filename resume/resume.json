@@ -2,7 +2,7 @@
   "basics": {
     "name": "Pius Wanjiru",
     "label": "Software Developer",
-    "picture": "https://avatars3.githubusercontent.com/u/5344267?v=3&s=460",
+    "picture": "",
     "email": "piuswanjiru1@gmail.com",
     "phone": "+254 721 886 636",
     "website": "https://piuswanjiru.herokuapp.com",
@@ -99,7 +99,8 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "Bootstrap"
       ]
     },
     {
