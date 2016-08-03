@@ -52,6 +52,11 @@ ul li{
 	height: 680px;
 }
 
+#Portfolio{
+	background-color: #233E4D;
+	color: white;
+}
+
 #feedback{
 	margin: 0;
 	padding: 0;
