@@ -12,6 +12,18 @@ $("ul.qcontrols li").click(function(){
 });
 
 
+//fullscreen
+$(function(){
+  var wheight = $(window).height();//get height of the window
+  $('.fullheight').css('height',wheight);
+
+//resize
+$(window).resize(function(){
+  var wheight = $(window).height();
+  $('.fullheight').css('height', wheight);
+})
+})
+
 //WOW Scroll Spy
 var wow = new WOW({
     //disabled for mobile
