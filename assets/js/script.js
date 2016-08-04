@@ -1,48 +1,67 @@
-$('body').scrollspy({ target: '.navmenu' });
-
-// When we click on the LI
-$("ul.qcontrols li").click(function(){
-  // If this isn't already active
-  if (!$(this).hasClass("active")) {
-    // Remove the class from anything that is active
-    $("ul.qcontrols li.active").removeClass("active");
-    // And make this active
-    $(this).addClass("active");
-  }
-});
-
-
-//fullscreen
 $(function(){
-  var wheight = $(window).height();//get height of the window
-  $('.fullheight').css('height',wheight);
+  var topoffset = 43;
 
-//resize
-$(window).resize(function(){
-  var wheight = $(window).height();
-  $('.fullheight').css('height', wheight);
-})
-})
+  //fullscreen
+    var wheight = $(window).height();//get height of the window
+    $('.fullheight').css('height',wheight);
 
-//WOW Scroll Spy
-var wow = new WOW({
-    //disabled for mobile
-    mobile: false
-});
-wow.init();
-
-//ScrollTop
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
+  //resize
+  $(window).resize(function(){
+    var wheight = $(window).height();
+    $('.fullheight').css('height', wheight);
   });
-});
+
+  //WOW Scroll Spy
+  var wow = new WOW({
+      //disabled for mobile
+      mobile: false
+  });
+  wow.init();
+
+  //Smooth scroll
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+     }
+    });
+
+    //hightlight navigation on scroll
+    $(window).scroll(function(){
+      var windowpos = $(window).scrollTop();
+      $('nav li a').removeClass('active');
+
+      if (windowpos > $('#header').offset()){
+        $('nav li a').removeClass('active');
+        $('a[href$="#header"]').addClass('active');
+      }
+
+      if (windowpos > $('#about').offset()){
+        $('nav li a').removeClass('active');
+        $('a[href$="#about"]').addClass('active');
+      }
+
+      if (windowpos > $('#skills').offset()){
+        $('nav li a').removeClass('active');
+        $('a[href$="#skills"]').addClass('active');
+      }
+
+      if (windowpos > $('#Portfolio').offset()){
+        $('nav li a').removeClass('active');
+        $('a[href$="#Portfolio"]').addClass('active');
+      }
+
+      if (windowpos > $('#feedback').offset()){
+        $('nav li a').removeClass('active');
+      $('a[href$="#feedback"]').addClass('active');
+      }
+
+    });
+
+});//onload

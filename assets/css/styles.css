@@ -11,6 +11,15 @@ a{
 	text-decoration: none;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #82BC00;
+}
+
+a.active{
+	background-color: red;
+	color: white;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
