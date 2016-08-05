@@ -64,4 +64,24 @@ $(function(){
 
     });
 
+    //Testimonials
+    $.getJSON('data.json', function(data){
+      var template = $('#speakertpl').html();
+      var html = Mustache.to_html(template, data);
+      $('#carousel').html(html);
+
+      $('#carousel').cycle({
+        fx: 'growY',
+        /*sync: false,
+        easing: 'easeOutBack',
+        delay: -4000
+        */
+        pause: 1,
+        speed: 1000,
+        timeout: 1000,
+        next: '#next_btn',
+        prev: '#prev_btn',
+      })
+    });
+
 });//onload

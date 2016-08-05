@@ -1,0 +1,20 @@
+{ "Speakers" :[
+	{	
+		"name" : "William Wambua",
+		"shortname" : "William_Wambua",
+		"reknown" : "Software Developer(Transparency International)",
+		"Testimony" : "It is my pleasure to recommend Pius as a Software Developer. His vast knowledge will be valuable to your company."
+	},
+	{	
+		"name" : "Martin Fundi",
+		"shortname" : "Martin_Fundi",
+		"reknown" : "ICT Officer (The Supreme Court of Kenya)",
+		"Testimony" : "'It is my pleasure to recommend Pius. He delivers quality work in time and he's a good team player. He's just what your company needs to move to the next level.'"
+	},
+	{	
+		"name" : "David Muchungu",
+		"shortname" : "David_Muchungu",
+		"reknown" : "Teacher, Editor",
+		"Testimony" : "Pius is well behaving, respectful. It's my pleasure to recommend him."
+	}
+]}

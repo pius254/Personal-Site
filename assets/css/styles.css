@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Wendy+One);
+
 body{
 	font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
 	background: #fff;
@@ -59,6 +61,63 @@ ul li{
 	background-color: black;
 	text-align: center;
 	height: 680px;
+}
+
+#SpeakersBox{
+	width: 500px;
+	height: 500px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	background: #93A1A1;
+	padding: 1px 20px;
+	text-align: center;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#SpeakersBox h3, #SpeakersBox h3{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#SpeakersBox h3{
+	font-weight: 2em;
+	line-height: -9em;
+	font-family: 'Wendy One';
+	color: #115F79;
+}
+
+#SpeakersBox h4{
+	font-weight: bold;
+	color: #973C26;
+	margin-bottom: 5px;
+	line-height: 1.2em;
+}
+
+#SpeakersBox img{
+	float: center;
+	margin-left: 10px;
+	border-radius: 10px;
+	width: 150px;
+}
+
+#SpeakersBox p{
+	color: #1E3A40;
+	font-size: -9em;
+}
+
+#SpeakersBox #next_btn, #SpeakersBox #prev_btn{
+	background: #d33682; 
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+#SpeakersBox a#next_btn, #SpeakersBox a#prev_btn{
+	color: #FFF;
+	text-decoration: none;
 }
 
 #Portfolio{
