@@ -2,28 +2,38 @@
   "basics": {
     "name": "Pius Wanjiru",
     "label": "Software Developer",
-    "picture": "",
+    "picture": "fit.PNG",
     "email": "piuswanjiru1@gmail.com",
     "phone": "+254 721 886 636",
     "website": "https://piuswanjiru.herokuapp.com",
-    "summary": "Hello, my name is Pius Wanjiru from Nairobi, Kenya.  I am a Software Developer with a bias in web designing and development.",
+    "summary": "Hello, my name is Pius Wanjiru from Nairobi, Kenya.  I'm a fouth year IT student from Masinde Muliro University of Science and Technology(MMUST).I am a Software Developer with a bias in web designing and development.",
     "location": {
-      "address": "18",
+      "address": "78",
       "postalCode": "60105",
       "city": "Nairobi ",
-      "countryCode": "",
+      "countryCode":"+254",
       "region": "Kenya"
     },
     "profiles": [
+      {
+        "network": "Github",
+        "username": "pius254",
+        "url": "https://github.com/pius254/"
+      },
       {
         "network": "LinkedIn",
         "username": "Pius Wanjiru",
         "url": "http://ke.linkedin.com/in/piuswanjiru"
       },
       {
-        "network": "Github",
-        "username": "pius254",
-        "url": "https://github.com/pius254/"
+        "network": "Facebook",
+        "username": "Pius M. Wanjiru",
+        "url": "https://www.facebook.com/kaboom.pius"
+      },
+      {
+        "network": "Twitter",
+        "username": "@pius_wanjiru",
+        "url": "https://twitter.com/pius_wanjiru"
       }
     ]
   },
@@ -39,15 +49,16 @@
         "user support",
         "Web Development"
       ]
-    },
+    }
+  ],
   "volunteer": [
     {
       "organization": "Ciagini Secondary School",
       "position": "Teacher",
-      "website": "",
+      "url": "",
       "startDate": "2014-06-05",
       "endDate": "2014-09-12",
-      "summary": "Volunteered as a teacher in my alma-mater.",
+      "summary": "Volunteered as a peer teacher in a mixed secondary school in my area.",
       "highlights": [
         "Teaching Physics and Chemistry"
       ]
@@ -91,31 +102,67 @@
       "courses": []
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Student Congress on Science and Technology (provincial level)",
+      "date": "2011",
+      "awarder": "Chairman(SCST)",
+      "summary": "Making a Semi-permeable Membrane (visking tubing) using egg shells. (certificate)"
+    },
+    {
+      "title": "School Laboratory Captain",
+      "date": "2012",
+      "awarder": "School Principal",
+      "summary": "Laboratory Captain"
+    },
+    {
+      "title": "Student Congress on Science and Technology (provincial level)",
+      "date": "2012",
+      "awarder": "Chairman(SCST)",
+      "summary": "Making a fire extinguisher from fruit refuse. (certificate)"
+    },
+    {
+      "title": "Young Christian Student (YCS) Movement (Treasurer)",
+      "date": "2012",
+      "awarder": "Matron",
+      "summary": "Treasurer"
+    }
+  ],
   "publications": [],
   "skills": [
     {
       "name": "Web Development",
+      "level": "Intermediate",
       "keywords": [
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
         "Javascript",
-        "Bootstrap"
+        "Bootstrap",
+        "JQuery"
       ]
     },
     {
       "name": "Programming Languages",
+      "level": "Intermediate",
       "keywords": [
-        "C#",
-        "Java",
+        "JavaScript",
         "PHP",
-        "JavaScript"
+        "Java",
+        "C#"
       ]
     },
     {
       "name": "Databases",
+      "level": "Intermediate",
       "keywords": [
         "MySQl"
+      ]
+    },
+     {
+      "name": "Deployment",
+      "level": "Intermediate",
+      "keywords": [
+        "Heroku"
       ]
     },
     {
@@ -144,11 +191,26 @@
       ]
     },
     {
-      "name": "Watchin Movies",
+      "name": "Watching Movies",
       "keywords": [
         "fiction"
       ]
+    },
+    {
+      "name": "Travelling",
+      "keywords": [
+        ""
+      ]
     }
   ],
-  "references": []
+  "references": [
+    {
+      "name": "William Wambua",
+      "reference": "It is my pleasure to recommend Pius as a Software Developer. His vast knowledge will be valuable to your company."
+    },
+    {
+      "name": "Martin Fundi",
+      "reference": "It is my pleasure to recommend Pius. He delivers quality work in time and he's a good team player. He's just what your company needs to move to the next level."
+    }
+  ]
 }
