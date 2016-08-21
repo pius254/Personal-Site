@@ -1,6 +1,8 @@
 $(function(){
   var topoffset = 43;
 
+  var isTouch = 'ontouchstart' in document.documentElement;
+
   //fullscreen
     var wheight = $(window).height();//get height of the window
     $('.fullheight').css('height',wheight);
@@ -37,7 +39,7 @@ $(function(){
       var windowpos = $(window).scrollTop();
       $('nav li a').removeClass('active');
 
-      if (windowpos > $('#header').offset()){
+      if (windowpos => $('#header').offset()){
         $('nav li a').removeClass('active');
         $('a[href$="#header"]').addClass('active');
       }
@@ -70,7 +72,8 @@ $(function(){
       var html = Mustache.to_html(template, data);
       $('#carousel').html(html);
 
-      $('#carousel').cycle({
+     if (!isTouch) {
+       $('#carousel').cycle({
         fx: 'growY',
         /*sync: false,
         easing: 'easeOutBack',
@@ -82,6 +85,8 @@ $(function(){
         next: '#next_btn',
         prev: '#prev_btn',
       })
+     }
+
     });
 
 });//onload

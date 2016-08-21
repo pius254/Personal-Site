@@ -17,11 +17,6 @@ a{
   color: #82BC00;
 }
 
-a.active{
-	background-color: red;
-	color: white;
-}
-
 ul{
 	margin: 0;
 	padding: 0;
