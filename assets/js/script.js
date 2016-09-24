@@ -13,7 +13,7 @@ $(function(){
     $('.fullheight').css('height', wheight);
   });
 
-  //WOW Scroll Spy
+  //WOW animations
   var wow = new WOW({
       //disabled for mobile
       mobile: false
@@ -39,27 +39,27 @@ $(function(){
       var windowpos = $(window).scrollTop();
       $('nav li a').removeClass('active');
 
-      if (windowpos => $('#header').offset()){
+      if (windowpos = $('#header').offset()){
         $('nav li a').removeClass('active');
         $('a[href$="#header"]').addClass('active');
       }
 
-      if (windowpos > $('#about').offset()){
+      if (windowpos = $('#about').offset()){
         $('nav li a').removeClass('active');
         $('a[href$="#about"]').addClass('active');
       }
 
-      if (windowpos > $('#skills').offset()){
+      if (windowpos = $('#skills').offset()){
         $('nav li a').removeClass('active');
         $('a[href$="#skills"]').addClass('active');
       }
 
-      if (windowpos > $('#Portfolio').offset()){
+      if (windowpos = $('#Portfolio').offset()){
         $('nav li a').removeClass('active');
         $('a[href$="#Portfolio"]').addClass('active');
       }
 
-      if (windowpos > $('#feedback').offset()){
+      if (windowpos = $('#feedback').offset()){
         $('nav li a').removeClass('active');
       $('a[href$="#feedback"]').addClass('active');
       }
