@@ -35,36 +35,7 @@ $(function(){
     });
 
     //hightlight navigation on scroll
-    $(window).scroll(function(){
-      var windowpos = $(window).scrollTop();
-      $('nav li a').removeClass('active');
-
-      if (windowpos = $('#header').offset()){
-        $('nav li a').removeClass('active');
-        $('a[href$="#header"]').addClass('active');
-      }
-
-      if (windowpos = $('#about').offset()){
-        $('nav li a').removeClass('active');
-        $('a[href$="#about"]').addClass('active');
-      }
-
-      if (windowpos = $('#skills').offset()){
-        $('nav li a').removeClass('active');
-        $('a[href$="#skills"]').addClass('active');
-      }
-
-      if (windowpos = $('#Portfolio').offset()){
-        $('nav li a').removeClass('active');
-        $('a[href$="#Portfolio"]').addClass('active');
-      }
-
-      if (windowpos = $('#feedback').offset()){
-        $('nav li a').removeClass('active');
-      $('a[href$="#feedback"]').addClass('active');
-      }
-
-    });
+    $('body').scrollspy({ target: '.navbar-collapse' });
 
     //Testimonials
     $.getJSON('data.json', function(data){

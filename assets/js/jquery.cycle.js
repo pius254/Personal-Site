@@ -25,7 +25,6 @@ $.expr[':'].paused = function(el) {
 	return el.cyclePause;
 };
 
-
 // the options arg can be...
 //   a number  - indicates an immediate transition should occur to the given slide index
 //   a string  - 'pause', 'resume', 'toggle', 'next', 'prev', 'stop', 'destroy' or the name of a transition effect (ie, 'fade', 'zoom', etc)
