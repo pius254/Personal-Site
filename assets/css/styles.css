@@ -27,6 +27,54 @@ ul li{
 	list-style: none;
 }
 
+.btn-border,
+.btn-common {
+  color: #ffffff;
+  font-size: 22px;
+  border: 1px solid #FFF;
+  padding: 16px 36px;
+  font-weight: 400;
+  margin-left: 36px;
+  margin-right: 36px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 10;
+}
+.btn-border:after,
+.btn-common:after {
+  width: 100%;
+  height: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: #ffffff;
+}
+.btn-common {
+  background: #82BC00;
+  border: 1px solid #82BC00;
+}
+.btn-border:hover {
+  color: #82BC00;
+}
+.btn-border:hover:after {
+  height: 100%;
+}
+.btn-common:hover {
+  color: #82BC00;
+  background: #82BC00;
+  border: 1px solid #82BC00;
+}
+.btn-common:hover:after {
+  height: 100%;
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .row {
   padding: 60px 0 40px;
 }
