@@ -10,15 +10,20 @@
     "pius",
     "wanjiru",
     "muriithi",
-    "pius",
-    "wanjiru",
-    "pius",
-    "muriithi"
+    "pius muriithi",
+    "wanjiru pius",
+    "pius wanjiru",
+    "muriithi pius",
+    "pius muriithi wanjiru",
+    "pius m wanjiru"
   ],
   "author": "Pius Wanjiru <piuswanjiru1@gmail.com,piusmuriithi\u001b[3~1@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pius254/Personal-Site/issues"
   },
-  "homepage": "https://github.com/pius254/Personal-Site#readme"
+  "homepage": "https://github.com/pius254/Personal-Site#readme",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.11.2"
+  }
 }
