@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/pius254/Personal-Site#readme",
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.11.2"
+    "jsonresume-theme-elegant": "^1.12.1"
   }
 }
